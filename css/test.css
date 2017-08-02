@@ -1,0 +1,236 @@
+body {
+        min-width: 980px;
+    }
+
+    .wrapper {
+        width: 980px;
+    }
+
+    #main-shift {
+        margin-right: 320px;
+    }
+
+    #right {
+        width: 310px;
+        margin-left: -310px;
+    }
+
+	
+	
+
+        body#page > div#toolbar {
+            font-size: inherit;
+            height: inherit;
+            text-shadow: inherit;
+            background-color: #EFEFEF;
+            padding: 0;
+            margin: 0;
+            height: 65px;
+        }
+
+        body#page > div#toolbar > div.wrapper > * {
+            float: left;
+        }
+
+        #menu {
+            list-style: none;
+            margin: 0 0 0 18px;
+            padding: 0;
+            color: #7F8384;
+            height: 65px;
+            overflow: hidden;
+            width: 799px;
+        }
+
+        #menu > li {
+            float: left;
+            margin: 0;
+            height: 65px;
+        }
+
+        #menu > li:hover {
+            background: url("images/top_all.png") repeat-x scroll 0 -50px #a5a5a5;
+        }
+
+        #menu a {
+            text-decoration: none;
+            color: #7F8384;
+        }
+
+        #menu > li.active > a {
+            color: #1B61A9
+        }
+
+        #menu > li > a {
+            padding: 25px 15px;
+            position: relative;
+            top: 20px;
+            text-transform: uppercase;
+            font-size: 16px;
+            cursor: default;
+        }
+
+        #menu > li:hover > a {
+            color: #ffffff;
+        }
+
+        #menu > li > div.separator,
+        #menu > li > ul {
+            display: none;
+        }
+
+        #menu > li > div.dropdown {
+            position: absolute;
+            z-index: 999;
+            background: url("images/top_all.png") 20px 0 no-repeat scroll transparent;
+            top: 69px;
+            display: none;
+            padding-top: 6px;
+            overflow: hidden;
+        }
+
+        #menu > li > div.dropdown > div.column {
+            display: inline;
+            float: left;
+            background-color: #f2f2f3;
+            padding: 8px 20px 500em 20px;
+            margin-bottom: -500em;
+
+        }
+
+        #menu > li > div.dropdown > div.column.right {
+            background: url("images/top_all.png") 0 -342px repeat-x scroll transparent;
+        }
+
+        #menu > li > div.dropdown > div.column > div.separator {
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: default;
+            margin: 3px 0 5px 0;
+        }
+
+        #menu > li > div.dropdown > div.column > ul {
+            list-style: none;
+            margin: 0 0 10px;
+            padding: 0;
+        }
+
+        #menu > li > div.dropdown > div.column > ul > li {
+            padding: 4px 0;
+            border-bottom: 1px solid #e0e0e1;
+        }
+
+        #menu > li > div.dropdown > div.column > ul > li:hover {
+            border-bottom-color: #79b4e0;
+        }
+
+        #menu > li > div.dropdown > div.column > ul > li:hover a {
+            color: #1B61A9
+        }
+
+        #menu > li.icon {
+            float: right;
+            height: 32px;
+            width: 26px;
+            margin: 17px 0 16px 15px;
+            background: none;
+        }
+
+        #menu > li.icon.user {
+            background-position: -26px -115px;
+        }
+
+        #menu > li.icon > a {
+            font-size: 0;
+            height: 32px;
+            width: 26px;
+            padding: 0;
+            position: absolute;
+            top: inherit;
+        }
+
+        #menu > li.icon > a > span {
+            height: 26px;
+            width: 26px;
+            margin: 3px 0;
+            position: absolute;
+            background: url("images/top_all.png") 0px -115px no-repeat scroll transparent;
+        }
+
+        #menu > li.user > a > span {
+            background-position: -26px -115px;
+        }
+
+        #menu > li.user.login > a {
+            cursor: pointer;
+        }
+
+        #menu > li.user.online > a > span {
+            background-position: -52px -115px;
+        }
+
+        #menu > li.user div.column {
+            background: url("images/top_all.png") 100% -171px no-repeat scroll #F2F2F3;
+        }
+
+        #menu > li.icon ul {
+            min-width: 212px;
+        }
+
+        #menu > li.user ul {
+            min-height: 115px;
+        }
+
+        #menu > li.user li.username a {
+            font-weight: bold;
+        }
+
+        #menu > li.user li.logout > div {
+            height: 32px;
+            width: 120px;
+            margin: 6px auto 0;
+            font-size: 0;
+            background: url("images/top_all.png") 0 -141px no-repeat scroll transparent;
+            cursor: pointer;
+        }
+
+        #menu > li.user li.logout > div > a {
+            height: 32px;
+            width: 120px;
+            position: absolute;
+        }
+
+        #menu > li.icon > div.dropdown > div.column > ul > li {
+            border-style: none;
+        }
+
+        #menu > li.search-box div.dropdown {
+            background-position: 244px -6px;
+        }
+
+        #menu > li.search-box > div.dropdown > div.column {
+            background-color: #BFEAFF;
+            margin: 0;
+            padding: 20px;
+        }
+
+        #menu > li.search-box > div.dropdown > div.column > ul {
+            margin: 0;
+        }
+
+        #menu > li > div.dropdown > div.column > ul > li.bold {
+            background: url("./images/top_all.png") -50px -305px no-repeat scroll transparent;
+            border-bottom: 1px solid #e0e0e1;
+            margin-left: -12px;
+            padding-left: 12px;
+            font-weight: bold;
+        }
+
+        #menu > li > div.dropdown > div.column > ul > li.bold:hover {
+            border-bottom-color: #79b4e0;
+        }
+
+        #menu > p {
+            float: right;
+            margin: 20px 0 16px 15px;
+        }

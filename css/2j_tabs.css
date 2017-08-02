@@ -1,0 +1,213 @@
+﻿/*@import "def.css";
+@import "style1.tabs.css";
+@import "style2.tabs.css";
+@import "style3.tabs.css";
+@import "style4.tabs.css";
+@import "style5.tabs.css";
+@import "style6.tabs.css";
+@import "style7.tabs.css";
+@import "style8.tabs.css";
+@import "style9.tabs.css";
+@import "style10.tabs.css";
+@import "style11.tabs.css";
+@import "style12.tabs.css";
+@import "style13.tabs.css";
+@import "style14.tabs.css";
+@import "style15.tabs.css";
+@import "style16.tabs.css";
+@import "style17.tabs.css";
+@import "style18.tabs.css";
+@import "style19.tabs.css";
+@import "style20.tabs.css";
+@import "style21.tabs.css";
+@import "style99.tabs.css";*/
+
+
+/* Caution! Ensure accessibility in print and other media types... */
+@media projection, screen { /* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */
+    .ui-tabs-hide {
+        display: none;
+    }
+}
+
+/* Hide useless elements in print layouts... */
+@media print {
+    .ui-tabs-nav {
+        display: none;
+    }
+}
+
+/* @import "def.css"; */
+.ui-tabs-nav{
+	margin: 0 !important;
+   padding: 0 !important;
+	background-image: none !important;
+	list-style: none none !important;
+	background-color: transparent !important;
+}
+
+.ui-tabs-nav li{
+	float: left  !important;
+   padding: 0 !important;
+   list-style: none none !important;
+	background-image: none !important;
+	background-color: transparent;
+	/*min-width: 100px;  be nice to Opera */
+}
+
+.ui-tabs-nav a:link,
+.ui-tabs-nav a:visited,
+.ui-tabs-nav a:hover{ text-decoration: none !important; }
+
+.ui-tabs-nav a, 
+.ui-tabs-nav  a span{ 
+	text-decoration: none !important;
+	display: block !important;
+	/* float: left;  fixes dir=ltr problem and other quirks IE */
+}
+
+
+.ui-tabs-nav a{
+    white-space: nowrap !important; /* @ IE 6 */
+    outline: 0; /* @ Firefox, prevent dotted border after click */
+}
+
+/* @import "style1.tabs.css"; */
+/* Skin */
+.twoj_tabs_class1 {
+	background-color: White;
+}
+
+.twoj_tabs_class1 .ui-tabs-nav {  font-family: "Trebuchet MS", Trebuchet, Verdana, Helvetica, Arial, sans-serif;  }
+.twoj_tabs_class1 .ui-tabs-panel{}
+.twoj_tabs_class1 .ui-tabs-nav {   padding: 0 0 0 3px !important;}
+
+.twoj_tabs_class1 .ui-tabs-nav li{
+   margin: 0 0px 0 10px !important;
+}
+
+.twoj_tabs_class1.twoj_right_align .ui-tabs-nav li{
+	margin: 0 10px 0 0 !important;
+}
+
+/* ================================*/
+.twoj_tabs_class1 .ui-tabs-nav a,
+.twoj_tabs_class1 .ui-tabs-nav a span {
+    padding: 0 12px;
+    color: White;
+	 font-size: 12px !important;
+}
+
+.twoj_tabs_class1 .ui-tabs-nav .twoj_li_top a, 
+.twoj_tabs_class1 .ui-tabs-nav .twoj_li_top a span{ background: white url(../images/tabs.gif) no-repeat; }
+.twoj_tabs_class1 .ui-tabs-nav .twoj_li_bottom a, 
+.twoj_tabs_class1 .ui-tabs-nav  .twoj_li_bottom a span { background: white url(../images/tabs_bottom.gif) no-repeat; }
+
+.twoj_tabs_class1.enable_hover .ui-tabs-nav a:hover, 
+.twoj_tabs_class1.enable_hover .ui-tabs-nav a:hover span {
+  color: #31601c;
+}
+
+.twoj_tabs_class1 .ui-tabs-nav a {
+    margin: 5px 0 0; /* position: relative makes opacity fail for disabled tab in IE */
+    padding-left: 0;   
+}
+.twoj_tabs_class1 .ui-tabs-nav .twoj_li_bottom a {
+	 margin: 1px 0 0; /* position: relative makes opacity fail for disabled tab in IE */
+}
+
+.twoj_tabs_class1 .ui-tabs-nav .twoj_li_top a {   background-position: 100% 0; }
+.twoj_tabs_class1 .ui-tabs-nav .twoj_li_bottom a { background-position: 100% 0; }
+
+.twoj_tabs_class1 .ui-tabs-nav a:link, 
+.twoj_tabs_class1 .ui-tabs-nav a:visited { color: #fff; }
+
+.twoj_tabs_class1.enable_hover .ui-tabs-nav .ui-tabs-selected a:hover, 
+.twoj_tabs_class1.enable_hover .ui-tabs-nav .ui-tabs-selected a:hover span{ color: white; }
+
+.twoj_tabs_class1 .ui-tabs-nav .twoj_li_top.ui-tabs-selected a{
+    position: relative;
+    top: 1px;
+    z-index: 2;
+    margin-top: 0;
+    background-position: 100% -23px;
+}
+.twoj_tabs_class1 .ui-tabs-nav .twoj_li_bottom.ui-tabs-selected a{
+	 position: relative;
+	 top: 0px;
+    background-position: 100% -24px;
+	  z-index: 2;
+	 margin: 0 0 0; /* position: relative makes opacity fail for disabled tab in IE */
+}
+
+.twoj_tabs_class1 .ui-tabs-nav a span {
+    padding-top: 1px;
+    padding-right: 0;
+    height: 20px;
+    background-position: 0 0;
+    line-height: 20px;
+}
+
+.twoj_tabs_class1 .ui-tabs-nav  .twoj_li_top.ui-tabs-selected a span {
+    padding-top: 0;
+    height: 27px;
+    background-position: 0 -23px;
+    line-height: 27px;
+}
+
+.twoj_tabs_class1 .ui-tabs-nav  .twoj_li_bottom.ui-tabs-selected a span {  
+	padding-top: 0;
+   height: 27px;
+   background-position: 0 -24px;
+   line-height: 27px;
+}
+
+.twoj_tabs_class1 .ui-tabs-panel {
+   border: 1px solid #519e2d;
+   padding: 10px;
+	background-color: white !important;
+	/* harry add, 2011-04-01 */
+	height: 507px;
+	overflow: auto;
+	/* end */
+}
+
+/* harry add, 2011-04-01 */
+.twoj_tabs_class1 .ui-tabs-panel div.syntaxhighlighter {
+   margin: 0 !important
+}
+
+.twoj_tabs_class1 .ui-tabs-panel div.syntaxhighlighter div.lines div.line {
+   width: 1280px !important
+}
+/* end */
+
+.twoj_clr{ width: 0; height: 0; clear: both; }
+.ui-wrapper { border: 1px solid #696969; }
+.ui-wrapper input, .ui-wrapper textarea { border: 0; }
+
+
+
+.ui-tabs-nav:after { /* clearing without presentational markup, IE gets extra treatment */
+    display: block;
+    clear: both;
+    content: " ";
+}
+
+
+.ui-tabs-nav .ui-tabs-selected a:link, .ui-tabs-nav .ui-tabs-selected a:visited,
+.ui-tabs-nav .ui-tabs-disabled a:link, .ui-tabs-nav .ui-tabs-disabled a:visited { /* @ Opera, use pseudo classes otherwise it confuses cursor... */
+    cursor: text;
+}
+.ui-tabs-nav a:hover, .ui-tabs-nav a:focus, .ui-tabs-nav a:active,
+.ui-tabs-nav .ui-tabs-unselect a:hover, .ui-tabs-nav .ui-tabs-unselect a:focus, .ui-tabs-nav .ui-tabs-unselect a:active { /* @ Opera, we need to be explicit again here now... */
+    cursor: pointer;
+}
+
+/* Additional IE specific bug fixes... */
+* html .ui-tabs-nav { /* auto clear @ IE 6 & IE 7 Quirks Mode */
+    display: inline-block;
+}
+*:first-child+html .ui-tabs-nav  { /* auto clear @ IE 7 Standards Mode - do not group selectors, otherwise IE 6 will ignore complete rule (because of the unknown + combinator)... */
+    display: inline-block;
+}
