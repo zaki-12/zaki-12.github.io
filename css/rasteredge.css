@@ -69,7 +69,7 @@ hr{border-top: thin #c8c8c8;border-left:thin #c8c8c8;}
 #howto a:hover{/*background-color:rgba(255,255,255,.1);*/color:rgb(74,180,255)}
 
 /***********banner***********/
-.banner{height:300px;margin-top:50px;background:url("../images/banner.jpg");}
+/* .banner{height:300px;margin-top:50px;background:url("../images/banner.jpg");} */
 .banner_content{padding-top:68px;color:#000;}
 .banner_left{word-spacing:1px; /*letter-spacing:-1px;*/font:100 32px/1 "HelveticaNeue-Thin","HELVETICA_LT_35_THIN",sans-serif;width:413px;height:160px;padding-left:104px; border-right:1px double #000000;float:left}
 .banner_left3,.banner_left4{margin-top:50px;font:400 23px/1 "HelveticaNeue-Thin",sans-serif;}
