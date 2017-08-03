@@ -2406,8 +2406,8 @@ div.mod-shadowbox ul.menu li.level2 span.bg { background-image: url(../images/su
  */
 
 div.demoimage {
-	float: right;
-	width: 55%;
+	/* float: right; */
+	/* width: 55%; */
 }
 
 /* my css */

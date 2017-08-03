@@ -234,3 +234,43 @@ body {
             float: right;
             margin: 20px 0 16px 15px;
         }
+
+        /*#middle{background-color: black;}*/
+#page-body{padding-bottom: 30px;}
+
+.content_1 img{position: relative;margin-left: 90px;margin-top: 190px;}
+.content_2 img{position: relative;margin-left: 90px;margin-top: 190px;}
+.content_3 img{position: relative;margin-left: 90px;margin-top: 190px;}
+.content_4 img{position: relative;margin-left: 90px;margin-top: 190px;}
+.content_5 img{position: relative;margin-left: 90px;margin-top: 190px;}
+.content_6 img{position: relative;margin-left: 90px;margin-top: 190px;}
+.content_1{
+    width: 300px;;height: 240px;margin: 20px 0px 20px 0px;
+    background: url("../images/pdf.png") no-repeat;
+    float: left;
+}
+.content_2{
+    width: 300px;;height: 240px;margin: 20px 40px 20px 40px;
+    background: url("../images/doc.png") no-repeat;
+    float: left;
+}
+.content_3{
+    width: 300px;;height: 240px;margin: 20px 00px 20px 0px;
+    background: url("../images/xls.png") no-repeat;
+    float: left;
+}
+.content_4{
+    width: 300px;;height: 240px;margin: 20px 0px 20px 0px;
+    background: url("../images/ppt.png") no-repeat;
+    float: left;
+}
+.content_5{
+    width: 300px;;height: 240px;margin: 20px 40px 20px 40px;
+    background: url("../images/em.png") no-repeat;
+    float: left;
+}
+.content_6{
+    width: 300px;;height: 240px;margin: 20px 0px 20px 0px;
+    background: url("../images/bc.png") no-repeat;
+    float: left;
+}
